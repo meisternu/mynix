@@ -6147,6 +6147,8 @@ let
 
   SDL2_gfx = callPackage ../development/libraries/SDL2_gfx { };
 
+  SDL2_ttf = callPackage ../development/libraries/SDL2_ttf { };
+
   serd = callPackage ../development/libraries/serd {};
 
   serf = callPackage ../development/libraries/serf {};
@@ -6571,6 +6573,8 @@ let
   perlArchiveCpio = perlPackages.ArchiveCpio;
 
   perlcritic = perlPackages.PerlCritic;
+ 
+  archive-extract = callPackage ../development/perl-modules/Archive-Extract { };
 
   planetary_annihilation = callPackage ../games/planetaryannihilation { };
 
@@ -8202,6 +8206,8 @@ let
 
   bristol = callPackage ../applications/audio/bristol { };
 
+  bspwm = callPackage ../applications/window-managers/bspwm { };
+
   bvi = callPackage ../applications/editors/bvi { };
 
   calf = callPackage ../applications/audio/calf {
@@ -9106,6 +9112,8 @@ let
 
   lrzsz = callPackage ../tools/misc/lrzsz { };
 
+  luakit = callPackage ../applications/networking/browsers/luakit { };
+
   lxdvdrip = callPackage ../applications/video/lxdvdrip { };
 
   handbrake = callPackage ../applications/video/handbrake { };
@@ -9309,6 +9317,8 @@ let
   };
 
   synfigstudio = callPackage ../applications/graphics/synfigstudio { };
+
+  sxhkd = callPackage ../applications/window-managers/sxhkd { };
 
   msmtp = callPackage ../applications/networking/msmtp { };
 
